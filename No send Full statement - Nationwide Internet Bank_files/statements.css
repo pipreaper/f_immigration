@@ -1,0 +1,345 @@
+/* wide and short date range button styles */
+#stage .statement-filter ul.range-buttons {float:left;margin-right:19px;display:block;}
+#stage .statement-filter ul.short-range-buttons {float:left;margin-left:10px;margin-right:10px;display:block;}
+ul.range-buttons li, ul.short-range-buttons li {display:inline;}
+ul.range-buttons li a, ul.short-range-buttons li a {height:16px;padding:5px 0;text-align:center;display:block;float:left;font-size:11px;color:#000;background-image:url(img/graph-buttons-sprite.png);background-repeat:no-repeat;background-color:#F5C6C6;}
+ul.short-range-buttons li a {background-image:url(img/graph-buttons-sprite-sm.png);}
+ul.range-buttons li a:focus, ul.range-buttons li a:hover, ul.short-range-buttons li a:focus, ul.short-range-buttons li a:hover {background-color:#F7DAC4;color:#000;text-decoration:none;}
+ul.range-buttons li a:active, ul.range-buttons li a.selected, ul.short-range-buttons li a:active, ul.short-range-buttons li a.selected {background-color:#FBF2D6;text-decoration:none;}
+ul.range-buttons li a.disabled, ul.range-buttons li a.disabled:hover, ul.range-buttons li a.disabled:focus, ul.range-buttons li a.disabled:active, ul.short-range-buttons li a.disabled, ul.short-range-buttons li a.disabled:hover, ul.short-range-buttons li a.disabled:focus, ul.short-range-buttons li a.disabled:active {cursor:no-drop;outline:none;}
+
+/* wide date range buttons */ 
+ul.range-buttons li a {width:120px;background-position:-117px 0;}
+ul.range-buttons li a:focus, ul.range-buttons li a:hover {background-position:-117px -26px;}
+ul.range-buttons li a:active, ul.range-buttons li a.selected, ul.range-buttons li a.selected:hover, ul.range-buttons li a.selected:focus {background-position:-117px -52px;}
+ul.range-buttons li a.disabled, ul.range-buttons li a.disabled:hover, ul.range-buttons li a.disabled:focus, ul.range-buttons li a.disabled:active {background-position:-117px -78px;}
+
+ul.range-buttons li.first a {width:117px;background-position:0 0;}
+ul.range-buttons li.first a:focus, ul.range-buttons li.first a:hover {background-position:0 -26px;}
+ul.range-buttons li.first a:active, ul.range-buttons li.first a.selected, ul.range-buttons li.first a.selected:hover, ul.range-buttons li.first a.selected:focus {background-position:0 -52px;}
+ul.range-buttons li.first a.disabled, ul.range-buttons li.first a.disabled:hover, ul.range-buttons li.first a.disabled:focus, ul.range-buttons li.first a.disabled:active {background-position:0 -78px;}
+
+ul.range-buttons li.last a {width:121px;background-position:-237px 0;}
+ul.range-buttons li.last a:focus, ul.range-buttons li.last a:hover {background-position:-237px -26px;}
+ul.range-buttons li.last a:active, ul.range-buttons li.last a.selected, ul.range-buttons li.last a.selected:hover, ul.range-buttons li.last a.selected:focus  {background-position:-237px -52px;}
+ul.range-buttons li.last a.disabled, ul.range-buttons li.last a.disabled:hover, ul.range-buttons li.last a.disabled:focus, ul.range-buttons li.last a.disabled:active {background-position:-237px -78px;}
+
+ul.range-buttons li.only a {width:121px;background-position:-358px 0;}
+ul.range-buttons li.only a:focus, ul.range-buttons li.only a:hover {background-position:-358px -26px;}
+ul.range-buttons li.only a:active, ul.range-buttons li.only a.selected, ul.range-buttons li.only a.selected:hover, ul.range-buttons li.only a.selected:focus  {background-position:-358px -52px;}
+ul.range-buttons li.only a.disabled, ul.range-buttons li.only a.disabled:hover, ul.range-buttons li.only a.disabled:focus, ul.range-buttons li.only a.disabled:active {background-position:-358px -78px;}
+
+/* short date range buttons */ 
+ul.short-range-buttons li a {width:86px;background-position:-86px 0;}
+ul.short-range-buttons li a:focus, ul.short-range-buttons li a:hover {background-position:-86px -26px;}
+ul.short-range-buttons li a:active, ul.short-range-buttons li a.selected, ul.short-range-buttons li a.selected:hover, ul.short-range-buttons li a.selected:focus {background-position:-86px -52px;}
+ul.short-range-buttons li a.disabled, ul.short-range-buttons li a.disabled:hover, ul.short-range-buttons li a.disabled:focus, ul.short-range-buttons li a.disabled:active {background-position:-86px -78px;}
+
+ul.short-range-buttons li.first a {width:86px;background-position:0 0;}
+ul.short-range-buttons li.first a:focus, ul.short-range-buttons li.first a:hover {background-position:0 -26px;}
+ul.short-range-buttons li.first a:active, ul.short-range-buttons li.first a.selected, ul.short-range-buttons li.first a.selected:hover, ul.short-range-buttons li.first a.selected:focus {background-position:0 -52px;}
+ul.short-range-buttons li.first a.disabled, ul.short-range-buttons li.first a.disabled:hover, ul.short-range-buttons li.first a.disabled:focus, ul.short-range-buttons li.first a.disabled:active {background-position:0 -78px;}
+
+ul.short-range-buttons li.last a {width:87px;background-position:-172px 0;}
+ul.short-range-buttons li.last a:focus, ul.short-range-buttons li.last a:hover {background-position:-172px -26px;}
+ul.short-range-buttons li.last a:active, ul.short-range-buttons li.last a.selected, ul.short-range-buttons li.last a.selected:hover, ul.short-range-buttons li.last a.selected:focus  {background-position:-172px -52px;}
+ul.short-range-buttons li.last a.disabled, ul.short-range-buttons li.last a.disabled:hover, ul.short-range-buttons li.last a.disabled:focus, ul.short-range-buttons li.last a.disabled:active {background-position:-172px -78px;}
+
+ul.short-range-buttons li.only a {width:87px;background-position:-259px 0;}
+ul.short-range-buttons li.only a:focus, ul.short-range-buttons li.only a:hover {background-position:-259px -26px;}
+ul.short-range-buttons li.only a:active, ul.short-range-buttons li.only a.selected, ul.short-range-buttons li.only a.selected:hover, ul.short-range-buttons li.only a.selected:focus  {background-position:-259px -52px;}
+ul.short-range-buttons li.only a.disabled, ul.short-range-buttons li.only a.disabled:hover, ul.short-range-buttons li.only a.disabled:focus, ul.short-range-buttons li.only a.disabled:active {background-position:-259px -78px;}
+
+.chart-tooltip {background:#6FAFFF;border:1px solid #049;padding:7px 9px 7px 10px;-moz-opacity:0.8;opacity:0.8;color:#000;font-size:11px;text-align:center;z-index:9999;position:absolute;}
+.chart-tooltip .amount {font-weight:bold;}
+.chart-container {position:relative;left:12px;}
+.chart-container .x-axis-label {width:713px;text-align:center;}
+.chart-container .y-axis-label {position:absolute;top:120px;left:-10px;}
+
+#stage p.graph-desc {font-size:14px;color:#3d3f43;padding:13px 0 10px;margin:0;clear:both;width:100%;}
+#bar-chart {margin-bottom:24px;}
+.line-chart .y-axis-label {top:175px;}
+#line-chart {width:713px;height:370px;}
+#graph-showing {float:left;width:678px;text-align:center;margin-left:41px;color:#3d4243;margin-bottom:18px;}
+#graph-showing .showing {margin:9px 0 9px;}
+#graph-showing .high-bal {float:left;width:216px;background:#FDF7E6;margin:0;text-align:left;padding:2px 0 2px 10px;}
+#graph-showing .high-bal strong {color:#049;}
+#graph-showing .low-bal {float:left;width:226px;background:#FDF7E6;margin:0;padding:2px 0;}
+#graph-showing .average-bal {float:left;width:216px;background:#FDF7E6;margin:0;text-align:right;padding:2px 10px 2px 0;}
+#graph-showing .average-bal strong {color:#000;}
+
+#pie-chart td.legendLabel {padding:5px 0 5px 5px;text-align:left;font-size:11px;}
+#pie-chart-lightbox {position:relative;}
+#pie-chart-lightbox .lightbox-sub-head {position:absolute;top:0;left:5px;font-size:20px;}
+#pie-chart-lightbox .lightbox-date-head {width:100%;text-align:center;font-size:20px;}
+#pie-chart-lightbox div.legend table {margin-top:5px;}
+#graph-view #cboxLoadedContent {margin-bottom:0;}
+#graph-view #cboxClose {right:5px;}
+#pie-chart-close {position:absolute;bottom:5px;right:15px;}
+
+#graph-view .sortable-table {clear:both;margin-left:23px;}
+#graph-view .sortable-table table {border:1px solid #ccc;margin:19px 0 10px;}
+#paidin-paid-out {width:695px;}
+#paidin-paid-out col {width:25%;}
+#bal-over-time {width:350px;}
+#bal-over-time col {width:50%;}
+#graph-view .sortable-table table thead {height:auto;}
+#graph-view p.twistie-link {margin:0;clear:both;}
+#graph-view #graph-info-twistie {margin:1px 7px 0 0;}
+
+/* common column styles */
+th.dateFormat, th.amountFormat {width:105px;}
+td.dateFormat, td.amountFormat {width:90px;}
+.sortable-table table tr th.transType {width:130px;}
+.sortable-table table tr th.transType a {padding-right:10px;}
+
+/*Acc.02.01*/
+#stage .wide-pod{max-width:1000px; padding-left:0;padding-right:0;}/*Override max-width*/
+.amountCell {font-size:13px;font-weight:bold;color:#000;}
+
+/*Custom tool tip for Download file*/
+#downLoadFileTooltipLink {background:url(img/download-icon.gif) 0 50% no-repeat;}
+#stageUtilLinks #downLoadFileTooltip  a{border-right:none;padding:0;}
+#stageUtilLinks #downLoadFileTooltip {border:1px solid #999999;background:White url(img/customTooltipGradient.jpg) repeat-x scroll 0 30px;margin:0;padding:0;width:110px;color:}
+#stageUtilLinks #downLoadFileTooltip .custom-inner {margin:10px 10px 15px 10px;}
+#stageUtilLinks #downLoadFileTooltip .custom-inner a {margin:0;}
+#stageUtilLinks a#downLoadFileTooltipLink {padding-right:0;margin:0; padding-left:19px;} 
+#stageUtilLinks #downLoadFileTooltipLink #tabPlaceholder{margin:0;padding:0;}
+#stageUtilLinks .forgotten-details-link{padding:0;}
+#stage #stageInner #revealLinkArrow {display:inline-block; width:18px; height:17px; background:url(img/revealLinkArrow.png) no-repeat 5px 4px; position:relative;border:none;vertical-align:middle;}
+#stage #stageInner #tabPlaceholder {width:18px; height:17px; position:relative; vertical-align:middle; display:inline-block;border:none;}
+#stage #stageInner .downLoadFile-link-focus {background:url(img/customToolTipTabs.png) no-repeat -23px -3px;}
+
+/*Next logical step*/
+.next-logical-step {display:inline-block;width:100%;-moz-border-radius-bottomleft:8px;-moz-border-radius-bottomright:8px;-moz-border-radius-topleft:8px;-moz-border-radius-topright:8px;-webkit-border-radius:8px;border-radius:8px;background:#F7F7F7 none repeat scroll 100% 0;border:1px solid #7FA1CC;position:relative;height:28px;}
+.next-logical-step p {position:relative;font-weight:bold;text-align:center;padding-top:6px;text-decoration:underline; color:Blue;font-size:13px;}
+.next-logical-step span {position:relative;bottom:38px;float:right;display:block;left:2px;width:14px;height:30px;background:url(img/next-step-link-container-arrow.gif) no-repeat scroll 100% 0;}
+
+/*Rounded corners for the next step container*/
+.next-logical-step-ne {display:block;width:8px;height:8px;position:absolute;top:-1px;right:-1px;background:#fff url(img/next-step-container-corners.gif) no-repeat -7px 0;}
+.next-logical-step-se {display:block;width:8px;height:8px;position:absolute;bottom:-1px;right:-1px;background:#fff url(img/next-step-container-corners.gif) no-repeat -7px -7px;}
+.next-logical-step-sw {display:block;width:8px;height:8px;position:absolute;bottom:-1px;left:-1px;background:#fff url(img/next-step-container-corners.gif) no-repeat 0 -7px;}
+.next-logical-step-nw {display:block;width:8px;height:8px;position:absolute;top:-1px;left:-1px;background:#fff url(img/next-step-container-corners.gif) no-repeat 0 0;}
+                      
+#stage .statement-filter {margin-bottom:10px;border:1px solid #ccc;padding:3px 0;float:left;clear:both;width:100%;}
+#stage .statement-filter-revealed{border-left:1px solid #ccc;border-bottom:none;margin-bottom:0;}/*CSS to be added when the statement-filter panel is revealed*/
+#stage .statement-filter-date ul{margin-left:3px;width:auto;margin-top:3px;margin-bottom:3px;}
+#stage .statement-filter p {font-size:14px;margin:0;padding:5px 4px 0 10px;float:left;}
+#stage .statement-filter p.date-display-label {padding:5px 0 0 10px;color:#727F7F;}
+p.date-display-label {color:#727F7F;}
+p.date-display-label strong {color:#000;font-size:15px;}
+#stage .statement-filter p.enter-date-link {padding:4px 0 0 0;}
+.statement-filter .statement-filter-date a{font-size:14px;}
+#stage .statement-dates-reveal{float:left;clear:both;width:100%;background:#ECF5FB;border:1px solid #758082;padding:10px 0 27px;margin:0 0 10px;position:relative;}
+#stage .statement-dates-reveal .statement-dates-inner {padding:0 10px;float:left;clear:both;width:90%;}
+#stage .statement-dates-reveal input.text {border:1px solid #7FA1CC;margin-right:5px;width:80px;vertical-align:middle;}
+#stage .statement-dates-reveal p{font-size:13px;color:#000;margin-bottom:10px;}
+#stage .statement-dates-reveal label{font-size:13px;margin-right:5px;}
+
+#stage .statement-dates-reveal label span.date-format {display:block;position:absolute;bottom:9px;font-size:12px;}
+#stage .statement-dates-reveal .from-reveal label span.date-format {left:170px;}
+#stage .statement-dates-reveal .to-reveal label span.date-format {left:440px;}
+
+#stage .statement-dates-reveal .from-reveal {float:left;}
+#stage .statement-dates-reveal .to-reveal {float:left;margin-left:20px;}
+#stage .statement-dates-reveal .button-reveal {margin-left:20px;float:left;}
+#stage .statement-dates-reveal, .statement-transaction-reveal {display:none;}
+#close-dates-reveal {display:block;width:21px;height:20px;position:absolute;top:11px;right:11px;}
+#close-dates-reveal b {width:11px;height:15px;padding:0 0 0 4px;position:absolute;top:1px;left:1px;font-style:normal;background:#BFD0E5;border-top:1px solid #808080;border-left:1px solid #808080;position:absolute;border-right:2px solid #404040;border-bottom:2px solid #404040;}
+#close-dates-reveal i, #close-dates-reveal:visited i {position:absolute;top:0;right:0;background:url(img/filter-close-btn.png) no-repeat 0 0;width:21px;height:20px;}
+#close-dates-reveal:hover i, #close-dates-reveal:focus i {background-position:0 -22px;}
+#close-dates-reveal:active i {background-position:0 -44px;}
+
+#stage .wide-pod.split-top-blue-content-pod.filter-container{border-bottom:none;}
+#stage .statement-filter-transaction {padding-bottom:6px;}
+#stage .statement-filter-transaction p, #stage .statement-filter-transaction {font-size:14px;float:left;}
+#stage .statement-filter-transaction p {margin-bottom:0;padding-bottom:1px;}
+#stage .statement-filter-transaction p.change-this {position:relative;padding:0;margin-left:0;}
+#stage .statement-filter-transaction a#edit-transaction-type {margin-left:18px;}
+/*#stage .statement-filter-transaction p.change-this a.reveal-link {margin-left:18px;padding:0 22px 8px 0;display:block;background:transparent;}*/
+/*#stage .statement-filter-transaction a#edit-transaction-type.expanded {padding-bottom:8px;}
+#stage .statement-filter-transaction a#edit-transaction-type b {position:absolute;top:0;right:0;width:18px;height:20px;background:url(img/revealLinkArrow.png) no-repeat 5px 7px;cursor:pointer;}
+#stage .statement-filter-transaction a#edit-transaction-type.expanded b {background:url(img/Custom-tool-tip-filters-tab-new.png) no-repeat 0 0;border-bottom:1px solid #ECF5FB;}*/
+
+#close-transaction-reveal {display:block;width:21px;height:20px;position:absolute;top:11px;right:11px;}
+#close-transaction-reveal b {width:11px;height:15px;padding:0 0 0 4px;position:absolute;top:1px;left:1px;font-style:normal;background:#BFD0E5;border-top:1px solid #808080;border-left:1px solid #808080;position:absolute;border-right:2px solid #404040;border-bottom:2px solid #404040;}
+#close-transaction-reveal i, #close-transaction-reveal:visited i {position:absolute;top:0;right:0;background:url(img/filter-close-btn.png) no-repeat 0 0;width:21px;height:20px;}
+#close-transaction-reveal:hover i, #close-transaction-reveal:focus i {background-position:0 -22px;}
+#close-transaction-reveal:active i {background-position:0 -44px;}
+
+
+#stage .statement-filter-transaction p {margin-left:10px;}
+#stage .statement-filter-transaction strong{margin-left:5px;}
+#stage .statement-filter-transaction img{margin-left:3px;vertical-align:middle;}
+#stage .statement-transaction-reveal{background:#ECF5FB none repeat scroll 0 0;border:1px solid grey;clear:both;position:relative;font-size:13px;overflow:hidden;padding-bottom:27px;width:100%;}
+#stage .statement-transaction-reveal p{margin:0 0 7px;color:#000;}
+#stage .statement-transaction-reveal p.filter-intro {margin:10px 0 10px 10px;}
+#stage .statement-transaction-reveal label {color:#0057BF;position:relative;margin-left:20px;display:block;width:132px;}
+#stage .statement-transaction-reveal ul {margin-left:30px;margin-top:14px;}
+#stage .statement-transaction-reveal ul li{margin-top:7px;min-height:32px;}
+#stage .statement-transaction-reveal input {margin-left:0;vertical-align:middle;position:relative;float:left;}
+#stage .statement-transaction-reveal .first-col{float:left;margin-left:10px;}
+#stage .statement-transaction-reveal .second-col{float:left;margin-top:40px;margin-right:10px;}
+#stage .statement-transaction-reveal .third-col{float:left;border-left:1px dashed #ccc;padding-left:10px;padding-bottom:62px;}
+#stage .statement-transaction-reveal .fourth-col{float:left;margin-top:40px;margin-right:10px;}
+#full-statement-container{clear:both;}
+#stage .filter-container {background:#FFF;float:left;width:100%;z-index:1;}
+.transaction-reveal-button{position:absolute;right:10px;bottom:10px;}
+#stage .transaction-reveal-button a{display:inline-block;margin-left:5px;}
+#full-statement-sortable-table {margin-top:0;}
+#upcomingPaymentsTable {margin-top:14px;}
+
+/* Additional info paragraph spacing reduced */
+#stageInner .stage-head-ac-info .acAdditionalInfo p { margin: 0 0 5px; }
+
+/*Override graph button sizes*/
+.statement-filter .graph-buttons li.prev-14 a{width:90px;}
+.statement-filter .graph-buttons li.prev-3 a{width:90px;}
+.statement-filter .graph-buttons li.current-month a{width:90px;}
+
+#stageInner .tableOuterHeader {font-size:13px;}
+
+/*Acc.02.03*/
+#statement-archive{width:261px;min-width:261px;position:relative;float:left;}
+.new-window-link img{padding-right:5px;}
+
+#statement-archive-select{width:238px;margin:0 10px 10px 10px;}
+#statement-archive-select select{float:left; width:60px;border:1px solid #7FA1CC;vertical-align:bottom;padding:0;margin:0;margin-left:3px;}
+#statement-archive-select a{float:left;margin-left:4px;position:relative;display:inline;width:30px;}
+#statement-archive-select label{float:left;padding:2px;}
+
+#statement-archive .sortable-table{float:left;width:100%;}
+#statement-archive .sortable-table table{margin-top:0;}
+#statement-archive .sortable-table table th, #statement-archive .sortable-table table td {padding-left:10px;}
+.statement-archive-adobe-twoCol{margin-left:573px;padding-top:69px;}
+.statement-archive-adobe-oneCol{margin-left:283px;padding-top:69px;}
+.statement-archive-footer{clear:both;overflow:auto;width:100%;}
+.statement-archive-footer .start-stop-statements{font-weight:bold;text-decoration:underline;font-size:13px;}
+
+#statement-archive.statement-archive-two-col{width:550px;}
+
+#statement-archive.statement-archive-two-col .sortable-table table {width:275px;float:left;}
+#statement-archive.statement-archive-two-col .sortable-table table.first tr td{border-right:1px solid #ccc;}
+#statement-archive.statement-archive-two-col .sortable-table table.second tr td{border-right:0;}
+
+/*07.01*/
+#stage .next-payment-statement{float:left;min-width:720px;width:100%;clear:both;display:block;margin:10px 10px 20px 0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;}
+#stage .next-payment-inner {background:#F5F8FC;}
+#stage .next-statement-inner {background:#EDEDED;}
+#stage .next-payment-statement p {margin:0;}
+#stage .next-payment-inner p {padding-left:18px;padding-top:5px;padding-bottom:2px;margin-left:5px;}
+#stage .next-statement-inner p {padding-left:18px;padding-top:2px;padding-bottom:4px;margin-left:5px;}
+#stage .next-payment-inner strong {margin-left:17px;}
+#stage .next-statement-inner strong {margin-left:21px;}
+#stage .statement-head .expanded-info-margin {margin-bottom:0;}     
+
+/*07.02*/
+#statement-prev-trans{font-size:13px;}
+#statement-prev-trans .content-pod{background:#fff;margin:10px 10px -5px 10px;font-size:13px;}
+#statement-prev-trans .content-pod strong{padding-bottom:7px;}
+#statement-prev-trans .content-pod #acrobat-download{margin-left:5px;vertical-align:middle;}
+#statement-prev-trans .content-pod .getAdobe{margin-top:10px;}
+#statement-prev-trans #statement-archive-select{width:310px;}
+#statement-prev-trans #statement-archive-select select{width:146px;}
+#statement-prev-trans h2{margin:0 0 10px 10px;}
+
+#recent-trans-table {margin-bottom:10px;float:left;}
+#statement-prev-trans .minimum-payment{float:left; width:47%;padding:0;margin:18px 0px 10px 10px; clear:none;}
+#statement-prev-trans .minimum-payment p {font-weight:bold;color:#000;padding:12px 4px 0 10px;}
+#statement-prev-trans .last-row .minimum-payment {margin-top:5px;}
+#statement-prev-trans .minimum-payment.with-tooltip p{display:inline-block; font-weight:bold;color:#000;padding:12px 4px 0 10px;}
+#statement-prev-trans .minimum-payment-legal {float:left;margin-top:5px;width:48%;color:#3d4043;padding-left:10px;margin-bottom:10px;}
+#statement-prev-trans .minimum-payment-legal p {margin-bottom:0;}
+#statement-prev-trans .minimum-payment-legal-full {margin-top:10px;color:#3d4043;padding-left:10px; padding-bottom:10px; clear:both;}
+#statement-prev-trans .minimum-payment-legal-full p {margin-bottom:0;}
+
+.summary-lists {width:100%;}
+.summary-lists dl, .summary-lists dt, .summary-lists dd {display:block;}
+.summary-lists dl {width:49.99%;float:left;border-bottom:1px solid #ccc;}
+.summary-lists dl dt {background:url(img/crossHatchBackground-lightblue.gif) repeat 0 0;float:left;width:73%;border-top:1px solid #ccc;}
+.summary-lists dl dt span {border-right:1px solid #ccc;display:block;padding:7px 10px;}
+.summary-lists dl.col-one dd span {border-right:1px solid #ccc;}
+.summary-lists dl dd {background:#fff;float:left;width:27%;border-top:1px solid #ccc;text-align:right;font-weight:bold;}
+.summary-lists dl dd span {display:block;padding:7px 10px;}
+
+
+/*05.01*/
+.mortgage-statement-wrapper .sortable-table{clear:both;}
+.mortgage-statement-wrapper .sortable-table table{margin-top:0;}
+.mortgage-statement-wrapper .interest-rate-table{width:41%;float:left;}
+.mortgage-statement-wrapper .repayment-method-table{width:59%;clear:none;}
+.mortgage-statement-wrapper .interest-rate-table table {width:100%;border-right:1px solid #ccc;border-left:0;}
+.mortgage-statement-wrapper .repayment-method-table table{width:100%;}
+.mortgage-statement-wrapper .repayment-method-table table tbody tr td:first-child{width:70px;}
+.inline-tables{position:relative;}
+.inline-tables div {display:inline-block; width:100%;}
+#stage .balance-info {height:16px;margin-left:10px;margin-top:10px;background: url(img/exclamation-mark-icon.gif) no-repeat 0 0;margin-bottom:10px;}
+#stage .balance-info p{margin-left:20px;}
+.mortgage-statement-wrapper #statement-archive-select select{float:left; width:100px;border:1px solid #7FA1CC;vertical-align:bottom;padding:0;margin:0;margin-left:3px;}
+.mortgage-statement-wrapper #statement-archive-select{width:274px;margin:0 10px 10px 10px;}
+.mortgage-statement-wrapper table tr th.date-col{width:15.5%;max-width:35px;}
+.mortgage-statement-wrapper .sortable-table {vertical-align:top}
+
+/*06.03*/
+.account-details {float: left;}
+.interest-details {float: left; margin-right:10px;}
+#savings-statement-table, table.special-data {width:250px;border-right:1px solid #ccc;}
+#savings-statement-table,table.special-portfolio-data {width:100%;border-right:1px solid #ccc;border-left:1px solid #ccc;}
+#gross-net-interest-table, #account-details-table {width:100%;border-right:1px solid #ccc;}
+.sortable-table.account-details { width: 58%; }
+.sortable-table.interest-details { width: 40%; }
+.sortable-table.interest-details.full-statement { width: 100%; }
+#gross-net-interest-table-fullstatement {width:100%;border-right:1px solid #ccc; border-collapse : separate; margin-top:10px;}
+#portfolio-table {width:100%;border:1px solid #ccc; margin-top:10px;}
+.sortable-table table.special-data tr.second {background-color : #ddd; border-top: 1px solid #ccc; font-weight: bold;}
+.sortable-table table.special-portfolio-data tr.third {background-color : #ddd; border-top: 1px solid #ccc; font-weight: bold;}
+.sortable-table table.special-data tr th.first, .sortable-table table.special-data tr td:first-child  {border-left:1px solid #CCCCCC;}
+
+#gross-net-interest-table col.firstCol {width:55%;}
+#account-details-table col.firstCol {width:75%;}
+
+.wide-pod .next-logical-step {margin:10px;}
+.statement-middle-content {padding-top:15px;}
+.statement-middle-content p {padding-left:10px;padding-right:10px;}
+.current-balance-table {margin-top:20px;width:100%;}
+.current-balance-table table {width:333px;float:right;border-left:1px solid #ccc;}
+
+.split-top-blue-content-pod{-moz-border-radius-bottomleft:0;-moz-border-radius-bottomright:0;-webkit-border-bottom-left-radius:0;-webkit-border-bottom-right-radius:0;border-bottom-left-radius:0;border-bottom-right-radius:0;border-top-left-radius:8px;border-top-right-radius:8px;-moz-border-radius-topleft:8px;-moz-border-radius-topright:8px;-webkit-border-top-left-radius:8px;-webkit-border-top-right-radius:8px;position:relative;padding:10px 10px 0;border:1px solid #ccc;background:#f7f7f7;clear:both;}
+.split-bottom-content-pod{width:100%;-moz-border-radius-bottomleft:8px;-moz-border-radius-bottomright:8px;-webkit-border-bottom-left-radius:8px;-webkit-border-bottom-right-radius:8px;border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-top-left-radius:0;border-top-right-radius:0;-moz-border-radius-topleft:0;-moz-border-radius-topright:0;-webkit-border-top-left-radius:0;-webkit-border-top-right-radius:0;position:relative;padding:0 10px 15px;margin-bottom:15px;border:1px solid #ccc;border-top:none;background:#f7f7f7;clear:both;}
+
+.mortgage-statement-wrapper table tr th.interest-rate-col{width:27.11%;max-width:35px;}
+.interest-rate-table table tr th.interest-rate-amount-col{width:72.89%;}
+.repayment-method-table table tr th.repayment-date-col{width:24.4%;}
+.repayment-method-table table tr th.repayment-method-col{width:73.17%;}
+
+.full-blue-container{position:relative;padding:10px 10px 15px;margin-bottom:15px;border:1px solid #ccc;background:#f7f7f7;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;clear:both;}
+/*R3.2 ACC.07.02*/
+#freeForeignToolTip a.help-reveal{display:inline-block;top:3px;}
+#freeForeignToolTip .ctool{border:1px solid #B7A88B;}
+#freeForeignToolTip { display:inline-block; padding-top:1px;}
+
+/*CR040 QC#7948*/
+#month-placeholder{font-weight:bold;}
+
+/*QC 7501/7632 fix */
+#pie-chart-close {z-index:1;}
+#pie-chart-lightbox .lightbox-date-head {z-index:1;}
+#colorbox .lightbox-print {z-index:1;}
+#cboxClose {z-index:2;}
+
+/*VAC.01*/
+.loan-details {float:left;width:49%;}
+.loan-other-details {float:right;width:49%;}
+.loan-details table {border-right:1px solid #ccc;margin:10px 0 15px;}
+.loan-other-details table {border-left:1px solid #ccc;margin:10px 0 15px;}
+
+/* MiData */
+#midataInformationLightbox { width: 600px; font-size: 12px; color: #000; text-align: left; margin: 0 5px 0 0; }
+#midataInformationLightbox p { margin: 0px 0px 10px; }
+#midataInformationLightbox a.btn-yes, #midataInformationLightbox a.btn-yes i { width: 60px; }
+#midataInformationLightbox a.btn-no, #midataInformationLightbox a.btn-no i { width: 60px; }
+#midataInformationLightbox ul.choices li { display: inline; float: left; margin: 20px 20px 0 0; }
+#midataInformationLightbox ul.choices { margin-left: auto; margin-right: auto; width: 200px; }
+#midataInformationLightbox .confirmCheckboxLabel { display: inline-block; width: 550px; vertical-align: top; }
+#midataInformationLightbox .confirmInformationRead { border: 1px solid #CCE4F4; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background: #ECF5FB; padding: 10px 10px 15px 10px; }
+#midataInformationLightbox .confirmInformationRead.error { background: #FCD9D9; border: 1px solid red; }

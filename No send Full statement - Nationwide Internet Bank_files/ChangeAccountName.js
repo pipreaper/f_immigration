@@ -1,0 +1,4 @@
+/*!
+ * Copyright (c) Nationwide Building Society 2010. All rights reserved.
+ */
+$(function(){var ctrls=$("#changeAccountNameLightBoxForm div.cell-two");$("#lbBtnUpdate").click(function(e){e.preventDefault();$(this).closest("form").submit()});$("#lbBtnCancel").click(function(e){e.preventDefault();$.colorbox.close()});$("#stage").delegate("a.changeNameLightbox","click",function(e){var self=$(this),index=self.attr("data-account-index"),description=self.attr("data-account-description"),customDescription=self.attr("data-account-custom-description"),accountNumber=self.attr("data-account-number");e.preventDefault();ctrls.find("label").text(description+" "+accountNumber);ctrls.find("#myName").val(customDescription);ctrls.find("#myAccountIndex").val(index);$.colorbox({inline:!0,href:"#changeAccountNameLightBox",transition:"elastic",opacity:.5,scrolling:!1})})})
